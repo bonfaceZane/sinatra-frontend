@@ -19,7 +19,8 @@
 			"bracketSpacing": true,
 			"bracketSameLine": false,
 			"indentWidth": 4,
-			"indentStyle": "space"
+			"indentStyle": "space",
+			"lineWidth": 80
 		}
 	}
 }
