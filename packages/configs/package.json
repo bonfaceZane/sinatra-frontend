@@ -1,5 +1,5 @@
 {
-  "name": "@sinatra/config",
+  "name": "@repo/config",
   "version": "0.0.0",
   "private": true,
   "scripts": {
