@@ -1,27 +1,31 @@
 {
-  "name": "sinatra-frontend",
-  "private": true,
-  "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "format": "bunx @biomejs/biome format --write \"**/*.{ts,tsx,md,json,js,jsx,yaml,yml}\""
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.4.1",
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
-    "autoprefixer": "^10.4.16",
-    "prettier": "^3.1.0",
-    "tailwindcss": "^3.3.6",
-    "turbo": "latest"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "packageManager": "bun@1.0.6",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+    "name": "sinatra-frontend",
+    "private": true,
+    "scripts": {
+        "build": "turbo build",
+        "dev": "turbo dev",
+        "develop": "turbo develop",
+        "lint": "turbo lint",
+        "format": "bunx @biomejs/biome format --write \"**/*.{ts,tsx,md,json,js,jsx,yaml,yml}\""
+    },
+    "devDependencies": {
+        "@biomejs/biome": "1.4.1",
+        "@repo/eslint-config": "*",
+        "@repo/typescript-config": "*",
+        "autoprefixer": "^10.4.16",
+        "prettier": "^3.1.0",
+        "tailwindcss": "^3.4.0",
+        "turbo": "latest"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "packageManager": "bun@1.0.6",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "dependencies": {
+        "fp-ts": "^2.16.2"
+    }
 }

@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import { ReactElement } from "react";
+import {  getOrElse, Option, some } from "fp-ts/Option";
 
 function Gradient({
     conic,
@@ -10,6 +11,7 @@ function Gradient({
     conic?: boolean;
     className?: string;
 }): ReactElement {
+
     return (
         <span
             className={[
@@ -24,10 +26,10 @@ function Gradient({
     );
 }
 
-export default function Page(): JSX.Element {
+export default function Page(): ReactElement {
     return (
         <main className={styles.main}>
-            <div>Sinatra: music to my ears</div>
+            <h2 className={"text-red-500"}>Sinatra: music to my earsss</h2>
         </main>
     );
 }
