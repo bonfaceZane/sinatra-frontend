@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 import { ReactElement } from "react";
-import {  getOrElse, Option, some } from "fp-ts/Option";
+
 
 function Gradient({
     conic,
