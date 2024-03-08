@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-    transpilePackages: ["ui"],
+  transpilePackages: ["ui"],
+  logging: {
+    fetches: {
+      fullUrl: true,
+    },
+  },
 };
