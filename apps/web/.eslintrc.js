@@ -6,4 +6,11 @@ module.exports = {
   parserOptions: {
     project: true,
   },
+  settings: {
+    "import/resolver": {
+      node: {
+        paths: ["."],
+      },
+    },
+  },
 };
