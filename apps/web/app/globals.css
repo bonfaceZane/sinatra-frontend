@@ -1,9 +1,8 @@
-@import "tailwindcss";
-
+@import 'tailwindcss';
 
 /*noinspection CssInvalidAtRule*/
 @theme {
-    --font-family-display: "Satoshi", "sans-serif";
+    --font-family-display: 'Satoshi', 'sans-serif';
 
     --breakpoint-3xl: 120rem;
 
