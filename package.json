@@ -26,6 +26,7 @@
         "@tailwindcss/cli": "next",
         "@tailwindcss/postcss": "next",
         "fp-ts": "^2.16.2",
-        "framer-motion": "^11.0.8"
+        "framer-motion": "^11.0.8",
+        "mintlify": "^4.0.150"
     }
 }
