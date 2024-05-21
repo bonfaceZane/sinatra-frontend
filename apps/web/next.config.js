@@ -1,3 +1,5 @@
+// next.config.{js|ts}
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     transpilePackages: ['ui', 'lib', '@repo/typescript-config'],
@@ -9,6 +11,7 @@ const nextConfig = {
     pageExtensions: ['ts', 'tsx', 'mdx'],
     experimental: {
         mdxRs: true,
+        reactCompiler: true,
     },
 };
 
