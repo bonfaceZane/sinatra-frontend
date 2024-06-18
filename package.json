@@ -6,9 +6,10 @@
 		"dev": "turbo dev",
 		"develop": "turbo develop",
 		"lint": "turbo lint",
-		"format": "bunx @biomejs/biome format --write \"**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts,json,css,html,md}\"",
-		"format:check": "bunx @biomejs/biome format --check \"**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts,json,css,html,md}\"",
-		"format:all": "bunx @biomejs/biome format --write ."
+		"format": "biome format --write \"**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts,json,css,html,md}\"",
+		"format:check": "biomee format --check \"**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts,json,css,html,md}\"",
+		"format:all": "biome format --write .",
+		"reporter": "biome check --reporter=summary"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.8.1",
