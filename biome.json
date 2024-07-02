@@ -21,8 +21,8 @@
 			"bracketSpacing": true,
 			"jsxQuoteStyle": "single",
 			"quoteProperties": "asNeeded",
-			"semicolons": "asNeeded",
-			"trailingCommas": "all"
+			"trailingCommas": "all",
+			"semicolons": "asNeeded"
 		}
 	},
 	"json": {
