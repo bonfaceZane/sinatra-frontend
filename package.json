@@ -1,31 +1,31 @@
 {
-	"name": "sinatra-frontend",
-	"private": true,
-	"scripts": {
-		"build": "turbo build",
-		"dev": "turbo dev",
-		"develop": "turbo develop",
-		"lint": "turbo lint",
-		"format": "biome format --write \"**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts,json,css,html,md}\"",
-		"format:check": "biomee format --check \"**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts,json,css,html,md}\"",
-		"format:all": "biome format --write .",
-		"reporter": "biome check --reporter=summary"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.8.1",
-		"autoprefixer": "^10.4.16",
-		"turbo": "latest"
-	},
-	"engines": {
-		"node": ">=18"
-	},
-	"packageManager": "bun@1.0.6",
-	"workspaces": ["apps/*", "packages/*"],
-	"dependencies": {
-		"@tailwindcss/cli": "next",
-		"@tailwindcss/postcss": "next",
-		"fp-ts": "^2.16.2",
-		"framer-motion": "^11.0.8",
-		"mintlify": "^4.0.150"
-	}
+    "name": "sinatra-frontend",
+    "private": true,
+    "scripts": {
+        "build": "turbo build",
+        "dev": "turbo dev",
+        "develop": "turbo develop",
+        "lint": "turbo lint",
+        "format": "biome format --write \"**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts,json,css,html,md}\"",
+        "format:check": "biomee format --check \"**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts,json,css,html,md}\"",
+        "format:all": "biome format --write .",
+        "reporter": "biome check --reporter=summary"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "1.8.1",
+        "autoprefixer": "^10.4.16",
+        "turbo": "latest"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "packageManager": "bun@1.0.6",
+    "workspaces": ["apps/*", "packages/*"],
+    "dependencies": {
+        "@tailwindcss/cli": "next",
+        "@tailwindcss/postcss": "next",
+        "fp-ts": "^2.16.2",
+        "framer-motion": "^11.0.8",
+        "mintlify": "^4.0.150"
+    }
 }

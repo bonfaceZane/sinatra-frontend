@@ -1,11 +1,11 @@
 import type React from "react"
 
 export function Code({
-	children,
-	className,
+    children,
+    className,
 }: {
-	children: React.ReactNode
-	className?: string
+    children: React.ReactNode
+    className?: string
 }): React.ReactElement {
-	return <code className={className}>{children}</code>
+    return <code className={className}>{children}</code>
 }
